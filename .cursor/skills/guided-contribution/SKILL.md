@@ -32,6 +32,7 @@
 6. Search for existing tests covering similar behavior.
 7. Identify existing helpers and abstractions that can be reused.
 8. Do not modify files.
+9. If there are blocking questions, do not proceed to the next phase until the questions are answered.
 
 ## Phase 3: Plan
 
@@ -65,7 +66,7 @@ What will not be handled by this change?
 What exact commands should be run?
 
 *(Note: If the active persona is a PM, present this Plan as the final Feature Specification and STOP here.)*
-Stop after producing the plan and wait for human approval.
+Stop after producing the plan and wait for human approval. Save a markdown file containing the plan in .cursor/plans/. Make the name descriptive and representative of the planned task.
 
 ## Phase 4: Implement
 
